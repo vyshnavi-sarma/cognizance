@@ -1,0 +1,12 @@
+declare integer n,m
+output-"enter the number"
+read n
+m=0
+while(m<n){
+m=m+3
+}
+if(m=n){
+output-true
+}
+else 
+output-false  
