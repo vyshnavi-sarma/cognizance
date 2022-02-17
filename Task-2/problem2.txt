@@ -1,0 +1,15 @@
+declare n,a,b,sum,i
+a=0
+b=1
+sum=0
+output-enter the nth term
+read n
+i=2
+while(i<=n){
+sum=a+b;
+a=b;
+b=sum;
+i++;
+}
+output sum
+we get nth term as output.
