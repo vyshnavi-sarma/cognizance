@@ -1,0 +1,10 @@
+row = 5
+n = (2 * row) - 2
+for m in range(0, row):
+   for k in range(0, n):
+      print(end=" ")
+   n = n - 1
+   for k in range(0, m + 1):
+      print("*", end=' ')
+   print(" ")
+  

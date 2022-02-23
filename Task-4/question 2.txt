@@ -1,0 +1,4 @@
+s = 'lorem ipsum'
+for k in range(len(s)):
+  if (k%2==0):
+    print(s[k])
